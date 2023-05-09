@@ -17,7 +17,7 @@ COPY ./app /home/app
 WORKDIR /home/app
 
 # will execute npm install in /home/app because of WORKDIR
-RUN npm install
+# RUN npm install
 
 # commands that need to be executed in the terminal of the container
 # no need for /home/app/server.js because of WORKDIR

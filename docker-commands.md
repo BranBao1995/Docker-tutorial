@@ -1,5 +1,14 @@
 # Commands
 
+## Docker-compose Commands
+
+docker-compose -f docker-compose.yaml up
+docker-compose -f docker-compose.yaml down
+
+## Build an image
+
+docker build -t my-app:1.0
+
 ## Create docker network
 
 docker network create tutorial-mongo-network

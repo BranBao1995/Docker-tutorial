@@ -1,3 +1,6 @@
+# By executing this file, it will pull the images and create containers and the network
+# By executing the 'down' command, it will remove all containers and the network
+
 version: "3"
 services:
   # my-app:
